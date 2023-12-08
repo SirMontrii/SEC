@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage{lipsum}
+
+\begin{document}
+
+\tableofcontents
+
+\newpage
+
+\section{First Section}
+\lipsum[1-2]
+
+\section{Second Section}
+\lipsum[3-4]
+
+\listoftables
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{|c|c|}
+    \hline
+    Table Header 1 & Table Header 2 \\
+    \hline
+    Data 1 & Data 2 \\
+    Data 3 & Data 4 \\
+    \hline
+  \end{tabular}
+  \caption{Just a table.}
+\end{table}
+
+\listoffigures
+
+\begin{figure}
+  \centering
+  \rule{4cm}{3cm} % Dummy figure, replace with \includegraphics{your_image_file}
+  \caption{This is an image}
+\end{figure}
+\end{document}

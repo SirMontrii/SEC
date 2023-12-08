@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage{natbib}
+\usepackage{url}
+\begin{document}
+
+This document is an example of the \texttt{natbib} package used in bibliography management. Three items are cited: The \textit{LaTeX Companion} book [2], the Einstein journal paper [1], and Donald Knuth's website [3]. The \LaTeX{} related items are [2,3].
+
+\bibliographystyle{plain}
+\bibliography{your-bib-file} % Replace 'your-bib-file' with the actual name of your bibliography file
+\section*{References}
+\begin{enumerate}
+  \item A. Einstein. Zur Elektrodynamik bewegter Körper. (German) [On the electrodynamics of moving bodies]. Annalen der Physik, 322(10):891-921, 1905. doi: \url{http://dx.doi.org/10.1002/andp.19053221004}.
+  
+  \item M. Goossens, F. Mittelbach, and A. Samarin. The \LaTeX{} Companion. Addison-Wesley, Reading, Massachusetts, 1993.
+  
+  \item D. Knuth. Knuth: Computers and typesetting. \url{http://www-cs-faculty.stanford.edu/~uno/abcde.html}.
+\end{enumerate}
+\end{document}

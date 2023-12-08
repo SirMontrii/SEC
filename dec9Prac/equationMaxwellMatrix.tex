@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\title{}
+\author{}
+\date{17 April 2023}
+
+\begin{document}
+\maketitle
+\section{Equation}
+\textbf{Hello World!} Today I am learning \LaTeX. \LaTeX{} is a great program for writing math such as $a^2 + b^2 = c^2$. I can also give equations their own space.
+\[
+\gamma^2 + \theta^2 = \omega^2
+\]
+\section{Maxwell's Equations}
+"Maxwell's equations" are named for James Clark Maxwell and are as follows:
+By Gauss's Law
+\begin{equation}
+    \vec{\nabla} \cdot \vec{E} = \dfrac{\rho}{\epsilon_0}
+\end{equation}
+By Gauss's Law for Magnetism
+\begin{equation}
+    \vec{\nabla} \cdot \vec{B} = 0
+\end{equation}
+By Faraday's Law for Magnetism
+\begin{equation}
+    \vec{\nabla} \times \vec{E} = -\frac{\partial \vec{B}}{\partial t}
+\end{equation}
+By Ampere's Circuital Law
+\begin{equation}
+    \vec{\nabla} \times \vec{B} = \mu_0 \left(\epsilon_0 \frac{\partial \vec{E}}{\partial t} + \vec{J}\right)
+\end{equation}
+
+\section{Matrix Equation}
+\begin{equation*}
+\begin{pmatrix}
+    a_{11} & a_{12} & \dots & a_{1n} \\
+    a_{21} & a_{22} & \dots & a_{2n} \\
+    \vdots & \vdots & \ddots & \vdots \\
+    a_{n1} & a_{n2} & \dots & a_{nn}
+\end{pmatrix}
+\begin{bmatrix}
+    v_{1} \\
+    v_{2} \\
+    \vdots \\
+    v_{n}
+\end{bmatrix}
+=
+\begin{bmatrix}
+    w_{1} \\
+    w_{2} \\
+    \vdots \\
+    w_{n}
+\end{bmatrix}
+\end{equation*}
+
+\end{document}
